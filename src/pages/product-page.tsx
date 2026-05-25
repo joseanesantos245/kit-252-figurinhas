@@ -166,7 +166,7 @@ export default function ProductPage() {
       avatarColor: '#1565C0',
       stars: 5,
       time: 'Há 2 semanas',
-      photos: [img('/images/review-extra-1.png')],
+      photos: [img('/images/review-extra-1.webp')],
       review: 'Vieram figurinhas raras! Saiu o Dembélé lendário logo no primeiro pacote. Qualidade impressionante, produto 100% original Panini.',
       helpful: 31,
     },
@@ -176,7 +176,7 @@ export default function ProductPage() {
       avatarColor: '#00897B',
       stars: 5,
       time: 'Há 1 semana',
-      photos: [img('/images/review-extra-2.png'), img('/images/review-extra-3.png')],
+      photos: [img('/images/review-extra-2.webp'), img('/images/review-extra-3.webp')],
       review: 'Completei a seleção da França e da Espanha de uma só vez! Produto original Panini, entrega rapidíssima. Super recomendo!',
       helpful: 26,
     },
@@ -196,7 +196,7 @@ export default function ProductPage() {
       avatarColor: '#6A1B9A',
       stars: 5,
       time: 'Há 4 dias',
-      photos: [img('/images/review-extra-4.png')],
+      photos: [img('/images/review-extra-4.webp')],
       review: 'Comprei 30 pacotes e já completei metade do álbum. Chegou tudo lacrado e original. Entrega no prazo, embalagem perfeita!',
       helpful: 18,
     },
@@ -206,7 +206,7 @@ export default function ProductPage() {
       avatarColor: '#C62828',
       stars: 5,
       time: 'Há 3 dias',
-      photos: [img('/images/review-extra-5.png')],
+      photos: [img('/images/review-extra-5.webp')],
       review: 'Não acredito! Saíram Messi, Hakimi, Vinicius Jr e Mbappé extras no mesmo kit. Melhor compra do ano, absolutamente incrível!',
       helpful: 43,
     },
@@ -352,10 +352,13 @@ export default function ProductPage() {
   }
 
   const slides: SlideItem[] = [
-    { type: "image", src: img("/images/figurinhas-copa.png") },
-    { type: "video", src: img("/images/figurinhas-video.mp4") },
-    { type: "image", src: img("/images/figurinhas-3.webp") },
-    { type: "image", src: img("/images/figurinhas-4.webp") },
+    { type: "image", src: img("/images/slide-1.webp") },
+    { type: "image", src: img("/images/slide-2.webp") },
+    { type: "image", src: img("/images/slide-3.webp") },
+    { type: "image", src: img("/images/slide-4.webp") },
+    { type: "image", src: img("/images/slide-5.webp") },
+    { type: "image", src: img("/images/slide-6.webp") },
+    { type: "image", src: img("/images/slide-7.webp") },
   ];
 
   return (
@@ -708,6 +711,9 @@ export default function ProductPage() {
               { src: img('/images/op3.webp'), stars: 5, name: 'Pedro R.', initials: 'PR', avatarColor: '#e53935', review: 'Vieram 2 figurinhas lendárias: Valverde e Vinicius Jr! Uma sorte enorme. Qualidade impecável, comprarei novamente.' },
               { src: img('/images/op4.webp'), stars: 5, name: 'Carlos T.', initials: 'CT', avatarColor: '#7b1fa2', review: 'Simplesmente perfeito! Saíram Messi, Mbappé, Vini Jr e Hakimi em um único kit de 70 figurinhas. Produto oficial!' },
               { src: img('/images/op5.webp'), stars: 5, name: 'Maria J.', initials: 'MJ', avatarColor: '#f57c00', review: 'Dei de presente pro meu filho e ele amou! Produto original Panini, embalagem perfeita. Entrega rápida. 5 estrelas!' },
+              { src: img('/images/op6.webp'), stars: 5, name: 'Renata B.', initials: 'RB', avatarColor: '#00838F', review: 'Produto chegou bem embalado e original. Abri o álbum e fiquei impressionada com a qualidade das páginas. Vale cada centavo!' },
+              { src: img('/images/op7.webp'), stars: 5, name: 'Fábio L.', initials: 'FL', avatarColor: '#558B2F', review: 'Álbum lindo, capa firme e páginas coloridas. Chegou com os pacotes lacrados e produto 100% original. Super recomendo!' },
+              { src: img('/images/op8.webp'), stars: 5, name: 'Camila R.', initials: 'CR', avatarColor: '#D81B60', review: 'Kit completo, tudo perfeito! Álbum oficial Panini com os 70 pacotes. Entrega rápida e bem embalado. Compra nota 10!' },
             ].map((op, i) => (
               <button
                 key={i}
@@ -1041,7 +1047,7 @@ export default function ProductPage() {
                 {/* Product row */}
                 <div className="flex items-start gap-3 px-4 py-5 border-b border-gray-100 bg-white">
                   <img
-                    src={img("/images/figurinhas-copa.png")}
+                    src={img("/images/slide-1.webp")}
                     alt="produto"
                     className="w-20 h-20 rounded-xl object-contain border border-gray-100 shrink-0 bg-gray-50 p-1"
                   />
