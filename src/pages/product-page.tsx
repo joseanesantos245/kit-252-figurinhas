@@ -167,7 +167,7 @@ export default function ProductPage() {
       stars: 5,
       time: 'Há 2 semanas',
       photos: [img('/images/review-extra-1.webp')],
-      review: 'Vieram figurinhas raras! Saiu o Dembélé lendário logo no primeiro pacote. Qualidade impressionante, produto 100% original Panini.',
+      review: 'Produto chegou certinho! Tirei foto assim que abri a embalagem. Álbum Panini Copa 2026 original, capa linda e bem firme. Muito satisfeito com a compra, recomendo!',
       helpful: 31,
     },
     {
@@ -177,7 +177,7 @@ export default function ProductPage() {
       stars: 5,
       time: 'Há 1 semana',
       photos: [img('/images/review-extra-2.webp'), img('/images/review-extra-3.webp')],
-      review: 'Completei a seleção da França e da Espanha de uma só vez! Produto original Panini, entrega rapidíssima. Super recomendo!',
+      review: 'O álbum é lindo dos dois lados! Mostrei a capa e o verso "We Are 26" pra todo mundo em casa. Qualidade de impressão perfeita, produto 100% original Panini. Super recomendo!',
       helpful: 26,
     },
     {
@@ -197,7 +197,7 @@ export default function ProductPage() {
       stars: 5,
       time: 'Há 4 dias',
       photos: [img('/images/review-extra-4.webp')],
-      review: 'Comprei 30 pacotes e já completei metade do álbum. Chegou tudo lacrado e original. Entrega no prazo, embalagem perfeita!',
+      review: 'Chegou o kit completo! Álbum com os pacotes, tudo lacrado e original Panini. Abri todos na hora e já completei várias seleções. Entrega no prazo, embalagem perfeita!',
       helpful: 18,
     },
     {
@@ -207,7 +207,7 @@ export default function ProductPage() {
       stars: 5,
       time: 'Há 3 dias',
       photos: [img('/images/review-extra-5.webp')],
-      review: 'Não acredito! Saíram Messi, Hakimi, Vinicius Jr e Mbappé extras no mesmo kit. Melhor compra do ano, absolutamente incrível!',
+      review: 'Me surpreendi com as figurinhas Panini Extra Sticker e as cartas Adrenalyn XL que vêm nos pacotes! Não esperava esse bônus. Álbum muito bem feito, vale muito a pena!',
       helpful: 43,
     },
     {
@@ -352,13 +352,13 @@ export default function ProductPage() {
   }
 
   const slides: SlideItem[] = [
+    { type: "image", src: img("/images/slide-7.webp") },
     { type: "image", src: img("/images/slide-1.webp") },
     { type: "image", src: img("/images/slide-2.webp") },
     { type: "image", src: img("/images/slide-3.webp") },
     { type: "image", src: img("/images/slide-4.webp") },
     { type: "image", src: img("/images/slide-5.webp") },
     { type: "image", src: img("/images/slide-6.webp") },
-    { type: "image", src: img("/images/slide-7.webp") },
   ];
 
   return (
@@ -706,14 +706,14 @@ export default function ProductPage() {
           <h3 className="font-medium text-base mb-3">Opiniões com fotos</h3>
           <div className="flex gap-2 overflow-x-auto pb-2">
             {[
-              { src: img('/images/op1.webp'), stars: 5, name: 'Lucas M.', initials: 'LM', avatarColor: '#3483FA', review: 'Incrível! Comprei 40 pacotes e já veio um Mbappé Lendário dourado. Chegou super rápido e embalagem perfeita. Recomendo!' },
-              { src: img('/images/op2.webp'), stars: 5, name: 'Ana S.', initials: 'AS', avatarColor: '#00a650', review: 'Chegou em 2 dias! Todos os pacotes intactos e selados, produto 100% original Panini. Meu filho ficou feliz demais!' },
-              { src: img('/images/op3.webp'), stars: 5, name: 'Pedro R.', initials: 'PR', avatarColor: '#e53935', review: 'Vieram 2 figurinhas lendárias: Valverde e Vinicius Jr! Uma sorte enorme. Qualidade impecável, comprarei novamente.' },
-              { src: img('/images/op4.webp'), stars: 5, name: 'Carlos T.', initials: 'CT', avatarColor: '#7b1fa2', review: 'Simplesmente perfeito! Saíram Messi, Mbappé, Vini Jr e Hakimi em um único kit de 70 figurinhas. Produto oficial!' },
-              { src: img('/images/op5.webp'), stars: 5, name: 'Maria J.', initials: 'MJ', avatarColor: '#f57c00', review: 'Dei de presente pro meu filho e ele amou! Produto original Panini, embalagem perfeita. Entrega rápida. 5 estrelas!' },
-              { src: img('/images/op6.webp'), stars: 5, name: 'Renata B.', initials: 'RB', avatarColor: '#00838F', review: 'Produto chegou bem embalado e original. Abri o álbum e fiquei impressionada com a qualidade das páginas. Vale cada centavo!' },
-              { src: img('/images/op7.webp'), stars: 5, name: 'Fábio L.', initials: 'FL', avatarColor: '#558B2F', review: 'Álbum lindo, capa firme e páginas coloridas. Chegou com os pacotes lacrados e produto 100% original. Super recomendo!' },
-              { src: img('/images/op8.webp'), stars: 5, name: 'Camila R.', initials: 'CR', avatarColor: '#D81B60', review: 'Kit completo, tudo perfeito! Álbum oficial Panini com os 70 pacotes. Entrega rápida e bem embalado. Compra nota 10!' },
+              { src: img('/images/op1.webp'), stars: 5, name: 'Thaís M.', initials: 'TM', avatarColor: '#3483FA', review: 'Chegou hoje e já fotografei! Álbum lindo, capa firme e colorida, embalado com muito cuidado. Mal posso esperar pra começar a colar as figurinhas!' },
+              { src: img('/images/op2.webp'), stars: 5, name: 'Ana S.', initials: 'AS', avatarColor: '#00a650', review: 'Produto original Panini, chegou em perfeito estado. Capa muito bonita e bem feita. Entrega rápida e embalagem impecável. Recomendo demais!' },
+              { src: img('/images/op3.webp'), stars: 5, name: 'Pedro R.', initials: 'PR', avatarColor: '#e53935', review: 'Já colei o Cristiano Ronaldo, João Neves e Rúben Neves! Qualidade das figurinhas é excelente, impressão nítida. Completei Portugal inteira. Incrível!' },
+              { src: img('/images/op4.webp'), stars: 5, name: 'Carlos T.', initials: 'CT', avatarColor: '#7b1fa2', review: 'Não esperava pelas figurinhas Panini Extra Stickers! Saiu uma dourada no meu kit. O álbum tem até as cartas Adrenalyn XL. Produto completo, valeu muito!' },
+              { src: img('/images/op5.webp'), stars: 5, name: 'Maria J.', initials: 'MJ', avatarColor: '#f57c00', review: 'Organizei os pacotes em cima do álbum antes de abrir — que emoção! Colei toda a seleção do Brasil de uma vez. Produto 100% original, entrega perfeita!' },
+              { src: img('/images/op6.webp'), stars: 5, name: 'Renata B.', initials: 'RB', avatarColor: '#00838F', review: 'Página do Brasil completa! Cada jogador tem a foto linda. O álbum é muito bem feito, papel resistente e cores vivas. Valeu cada centavo, super recomendo!' },
+              { src: img('/images/op7.webp'), stars: 5, name: 'Fábio L.', initials: 'FL', avatarColor: '#558B2F', review: 'Kit chegou lacrado e original! Álbum Panini Copa 2026 com todos os pacotes. Entrega super rápida, produto sem nenhum defeito. Já pedi mais um kit!' },
+              { src: img('/images/op8.webp'), stars: 5, name: 'Camila R.', initials: 'CR', avatarColor: '#D81B60', review: 'Presentei meu marido e ele amou! Álbum capa mole com os pacotes, tudo original Panini e lacrado. Chegou rápido e bem protegido. Nota 10!' },
             ].map((op, i) => (
               <button
                 key={i}
