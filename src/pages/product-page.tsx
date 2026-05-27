@@ -7,7 +7,7 @@ import { img } from "@/lib/img";
 
 // ── Link de compartilhamento — edite aqui para mudar facilmente ──
 const SHARE_URL = "https://meusite.com.br/album";
-const SHARE_TITLE = "Álbum Oficial Copa do Mundo 2026 Panini + 70 Figurinhas por R$ 39,90!";
+const SHARE_TITLE = "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini por R$ 49,00!";
 // ────────────────────────────────────────────────────────────────
 
 type SlideItem =
@@ -409,7 +409,7 @@ export default function ProductPage() {
         </div>
 
         <h1 className="text-lg font-medium px-4 leading-snug">
-          Álbum Copa Do Mundo 2026 Oficial Panini + 70 Figurinhas Pronta Entrega
+          Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
         </h1>
 
         <div className="px-4 py-2 flex items-center gap-1">
@@ -601,7 +601,7 @@ export default function ProductPage() {
         <div className="border border-gray-200 rounded-lg overflow-hidden flex flex-col">
           {[
             ['Título do livro', 'Álbum Copa do Mundo 2026 Oficial Panini'],
-            ['Inclui', '1 Álbum brochura + 10 envelopes (70 figurinhas)'],
+            ['Inclui', '1 Álbum capa mole + 35 envelopes (250 figurinhas)'],
             ['Páginas', '112'],
             ['Figurinhas no álbum', '980'],
             ['Seleções', '48'],
@@ -622,7 +622,7 @@ export default function ProductPage() {
       <div className="bg-white p-4 pb-8">
         <h2 className="text-lg font-medium mb-4">Descrição</h2>
         <p className="text-sm text-muted-foreground leading-relaxed">
-          O Álbum Oficial Panini FIFA World Cup 2026™ é a edição completa para você colecionar todas as 980 figurinhas do Mundial de 2026. Inclui 1 álbum brochura de 112 páginas + 10 envelopes com 70 figurinhas originais Panini — 7 cromos por envelope. Reúne as 48 seleções participantes, 68 figurinhas especiais metálicas e o escudo holográfico do torneio.
+          O Álbum Oficial Panini FIFA World Cup 2026™ é a edição completa para você colecionar todas as 980 figurinhas do Mundial de 2026. Inclui 1 álbum capa mole de 112 páginas + 35 envelopes com 250 figurinhas originais Panini — 7 cromos por envelope. Reúne as 48 seleções participantes, 68 figurinhas especiais metálicas e o escudo holográfico do torneio.
         </p>
         <p className="text-sm text-muted-foreground leading-relaxed mt-3">
           Produto 100% oficial e original Panini, licenciado pela FIFA. Garantia de 90 dias após o recebimento.
@@ -634,7 +634,7 @@ export default function ProductPage() {
         <ul className="space-y-2 text-sm text-gray-700">
           {[
             'É oficial e original: Sim, 100% Original e Oficial Panini/FIFA',
-            'Produto: 1 Álbum brochura + 10 envelopes (70 figurinhas)',
+            'Produto: 1 Álbum capa mole + 35 envelopes (250 figurinhas)',
             'Total de figurinhas no álbum: 980',
             'Figurinhas especiais metálicas: 68',
             'Idade mínima recomendada: 6 anos',
@@ -767,8 +767,8 @@ export default function ProductPage() {
         <div className="flex gap-3 overflow-x-auto pb-2">
           {[
             {
-              name: 'Kit 70 Figurinhas Do Álbum Copa Do Mundo 2026 Pronta Entrega',
-              price: 'R$ 39,90',
+              name: 'Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes',
+              price: 'R$ 49,00',
               img: img('/images/sugg-1.webp'),
             },
             {
@@ -1053,10 +1053,10 @@ export default function ProductPage() {
                   />
                   <div className="flex-1 min-w-0">
                     <p className="text-xs text-gray-700 leading-snug mb-2">
-                      Álbum Copa Do Mundo 2026 Oficial Panini + 70 Figurinhas Pronta Entrega
+                      Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
                     </p>
                     <div className="flex items-baseline gap-2 mb-3">
-                      <span className="text-base font-bold text-gray-900">R$ 39,90</span>
+                      <span className="text-base font-bold text-gray-900">R$ 49,00</span>
                       <span className="text-[10px] text-gray-400 line-through">R$ 119,00</span>
                     </div>
                     <div className="flex items-center gap-3">

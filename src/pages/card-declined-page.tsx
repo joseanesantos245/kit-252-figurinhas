@@ -98,7 +98,7 @@ export default function CardDeclinedPage() {
 
           <p className="text-sm text-gray-500 mb-1">Pagamento não autorizado</p>
           <h1 className="text-xl font-bold text-gray-900 leading-snug">
-            O pagamento de R$ 39,90 não pôde ser autorizado pelo banco
+            O pagamento de R$ 49,00 não pôde ser autorizado pelo banco
           </h1>
           <p className="text-sm text-gray-400 mt-2">
             {bankName} **** {last4}

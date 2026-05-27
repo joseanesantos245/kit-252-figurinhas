@@ -543,8 +543,8 @@ export default function CepPage() {
     { label: `Chegará entre ${DAYS_PT[day2.getDay()]} e ${DAYS_PT[day3.getDay()]}`, price: "Frete grátis" },
   ];
 
-  const productPrice = 27.9;
-  const originalPrice = 87.0;
+  const productPrice = 49.0;
+  const originalPrice = 250.0;
   const discount = originalPrice - productPrice;
   const installments = calcInstallments(productPrice);
 
@@ -560,9 +560,9 @@ export default function CepPage() {
 
       {/* Product summary */}
       <div className="bg-white mx-0 px-4 py-3 flex items-center gap-3">
-        <img src={img("/images/figurinhas-copa.png")} alt="produto" className="w-14 h-14 object-contain rounded border border-gray-100" />
+        <img src={img("/images/album-250-figurinhas.jpg")} alt="produto" className="w-14 h-14 object-contain rounded border border-gray-100" />
         <p className="text-sm text-gray-700 leading-snug flex-1">
-          Kit 70 Figurinhas Do Álbum Copa Do Mundo 2026 Pronta Entrega
+          Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
         </p>
       </div>
 

@@ -89,7 +89,7 @@ export default function SuccessPage() {
             phone: checkoutData.phone,
             document: checkoutData.document,
             address: checkoutData.address,
-            productName: "Kit 70 Figurinhas Copa Do Mundo 2026",
+            productName: "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini",
           }),
         });
 
@@ -164,7 +164,7 @@ export default function SuccessPage() {
           phone: checkoutData.phone,
           document: checkoutData.document,
           address: checkoutData.address,
-          productName: "Kit 70 Figurinhas Copa Do Mundo 2026",
+          productName: "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini",
         }),
       });
 
@@ -283,7 +283,7 @@ export default function SuccessPage() {
           <div className="bg-white rounded-2xl shadow-sm px-5 py-6 flex flex-col gap-4">
             <p className="text-sm text-gray-600 text-center leading-relaxed">
               Confirme se já autorizou o pagamento de{" "}
-              <strong>R$ 39,90</strong> para finalizar a compra.
+              <strong>R$ 49,00</strong> para finalizar a compra.
             </p>
 
             <button
@@ -342,7 +342,7 @@ export default function SuccessPage() {
 
           <p className="text-sm text-gray-500 mb-1">Falta pouco!</p>
           <h1 className="text-xl font-bold text-gray-900 leading-snug">
-            Pague R$ 39,90 via Pix para concluir sua compra
+            Pague R$ 49,00 via Pix para concluir sua compra
           </h1>
         </div>
       </div>

@@ -24,7 +24,7 @@ const STEPS = [
   {
     icon: CheckCircle2,
     title: "Confirme os dados antes de pagar",
-    desc: "Verifique o nome do recebedor, o valor de R$ 39,90 e a instituição. Só finalize quando os dados estiverem corretos.",
+    desc: "Verifique o nome do recebedor, o valor de R$ 49,00 e a instituição. Só finalize quando os dados estiverem corretos.",
   },
   {
     icon: ShieldCheck,
@@ -53,7 +53,7 @@ async function callPixApi(checkoutData: {
       phone: checkoutData.phone,
       document: checkoutData.document,
       address: checkoutData.address,
-      productName: "Kit 70 Figurinhas Copa Do Mundo 2026",
+      productName: "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini",
     }),
   });
   const data = await res.json() as { transactionId?: string; pixCode?: string; qrCodeBase64?: string; qrCodeImage?: string; error?: string };
@@ -272,13 +272,13 @@ export default function InstructionsPage() {
         <p className="text-sm font-semibold text-gray-900 mb-3">Você comprou</p>
         <div className="flex items-center gap-3">
           <img
-            src={img("/images/figurinhas-copa.png")}
+            src={img("/images/album-250-figurinhas.jpg")}
             alt="produto"
             className="w-14 h-14 object-contain rounded-lg border border-gray-100 bg-gray-50 p-1 shrink-0"
           />
           <div className="flex-1 min-w-0">
             <p className="text-sm text-gray-800 font-medium leading-snug line-clamp-1">
-              Kit 70 Figurinhas Do Álbum Copa Do Mundo 2026...
+              Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas...
             </p>
             <p className="text-xs text-gray-500 mt-0.5">
               1 un. |{" "}

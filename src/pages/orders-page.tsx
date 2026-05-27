@@ -37,10 +37,10 @@ export default function OrdersPage() {
         {/* Title + thumbnail */}
         <div className="flex items-start justify-between gap-3 mb-4">
           <h1 className="text-xl font-bold text-gray-900 leading-snug flex-1">
-            Pague R$ 39,90 via Pix
+            Pague R$ 49,00 via Pix
           </h1>
           <img
-            src={img("/images/figurinhas-copa.png")}
+            src={img("/images/album-250-figurinhas.jpg")}
             alt="produto"
             className="w-16 h-16 object-contain rounded-lg border border-gray-100 bg-gray-50 p-1 shrink-0"
           />
@@ -86,13 +86,13 @@ export default function OrdersPage() {
         {/* Product row */}
         <button className="w-full flex items-center gap-3 px-4 py-4 border-b border-gray-100">
           <img
-            src={img("/images/figurinhas-copa.png")}
+            src={img("/images/album-250-figurinhas.jpg")}
             alt="produto"
             className="w-12 h-12 object-contain rounded-lg border border-gray-100 bg-gray-50 p-0.5 shrink-0"
           />
           <div className="flex-1 text-left min-w-0">
             <p className="text-sm text-gray-800 font-medium leading-snug line-clamp-2">
-              Kit 70 Figurinhas Do Álbum Copa Do Mundo 2026 Pronta Entrega
+              Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
             </p>
             <p className="text-xs text-gray-500 mt-0.5">1 un. | Pronta entrega</p>
           </div>
@@ -110,7 +110,7 @@ export default function OrdersPage() {
             </svg>
           </div>
           <div className="flex-1 text-left">
-            <p className="text-sm font-semibold text-gray-900">R$ 39,90</p>
+            <p className="text-sm font-semibold text-gray-900">R$ 49,00</p>
             <p className="text-xs text-gray-500">Pix · {TODAY}</p>
           </div>
           <ChevronRight className="w-4 h-4 text-gray-400 shrink-0" />
