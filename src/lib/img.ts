@@ -1,4 +1,4 @@
-const BASE = import.meta.env.BASE_URL;
 export function img(path: string): string {
-  return BASE + path.replace(/^\//, "");
+  const normalized = path.startsWith("/") ? path : "/" + path;
+  return normalized;
 }

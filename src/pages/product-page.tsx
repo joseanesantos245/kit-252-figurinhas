@@ -6,8 +6,8 @@ import { SiMercadopago } from "react-icons/si";
 import { img } from "@/lib/img";
 
 // ── Link de compartilhamento — edite aqui para mudar facilmente ──
-const SHARE_URL = "https://meusite.com.br/album";
-const SHARE_TITLE = "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini por R$ 49,00!";
+const SHARE_URL = "https://meusite.com.br/kit252";
+const SHARE_TITLE = "Kit 252 Figurinhas Copa Do Mundo 2026 - 36 Envelopes por R$ 159,90!";
 // ────────────────────────────────────────────────────────────────
 
 type SlideItem =
@@ -161,184 +161,184 @@ export default function ProductPage() {
 
   const extraReviews = [
     {
-      name: 'Carlos A.',
-      initials: 'CA',
+      name: 'Marcos V.',
+      initials: 'MV',
       avatarColor: '#1565C0',
       stars: 5,
       time: 'Há 2 semanas',
-      photos: [img('/images/review-extra-1.webp')],
-      review: 'Produto chegou certinho! Tirei foto assim que abri a embalagem. Álbum Panini Copa 2026 original, capa linda e bem firme. Muito satisfeito com a compra, recomendo!',
-      helpful: 31,
+      photos: [img('/images/review-1.webp')],
+      review: 'Meu gato quis participar da abertura! 😂🐱 36 pacotes na mesa e muita figurinha boa. Produto original Panini, chegou tudo certinho!',
+      helpful: 47,
     },
     {
-      name: 'Fernanda L.',
-      initials: 'FL',
+      name: 'Bianca S.',
+      initials: 'BS',
       avatarColor: '#00897B',
       stars: 5,
       time: 'Há 1 semana',
-      photos: [img('/images/review-extra-2.webp'), img('/images/review-extra-3.webp')],
-      review: 'O álbum é lindo dos dois lados! Mostrei a capa e o verso "We Are 26" pra todo mundo em casa. Qualidade de impressão perfeita, produto 100% original Panini. Super recomendo!',
-      helpful: 26,
+      photos: [img('/images/review-2.webp')],
+      review: 'Olha a qualidade dos pacotes! 🔥 Chegaram todos lacrados e originais. Cada um com 7 cromos, impressão perfeita. Vale muito a pena!',
+      helpful: 38,
     },
     {
-      name: 'Ana C.',
-      initials: 'AC',
-      avatarColor: '#D81B60',
-      stars: 5,
-      time: 'Há 2 dias',
-      photos: [img('/images/rev-mom-kid.webp')],
-      review: 'Presente perfeito pro meu filho! Ele ficou radiante quando saiu o Cristiano Ronaldo — olha a carinha dele! Chegou rápido e bem embalado. Com certeza vou comprar mais!',
-      helpful: 89,
-    },
-    {
-      name: 'Rafael M.',
-      initials: 'RM',
+      name: 'Eduardo P.',
+      initials: 'EP',
       avatarColor: '#6A1B9A',
       stars: 5,
-      time: 'Há 4 dias',
-      photos: [img('/images/review-extra-4.webp')],
-      review: 'Chegou o kit completo! Álbum com os pacotes, tudo lacrado e original Panini. Abri todos na hora e já completei várias seleções. Entrega no prazo, embalagem perfeita!',
-      helpful: 18,
+      time: 'Há 3 dias',
+      photos: [img('/images/review-3.webp')],
+      review: 'Organizei todos os 36 pacotes antes de abrir — que quantidade incrível! 🏆 Produto 100% original, entrega super rápida. Recomendo!',
+      helpful: 62,
     },
     {
-      name: 'Juliana P.',
-      initials: 'JP',
+      name: 'Natália F.',
+      initials: 'NF',
       avatarColor: '#C62828',
       stars: 5,
-      time: 'Há 3 dias',
-      photos: [img('/images/review-extra-5.webp')],
-      review: 'Me surpreendi com as figurinhas Panini Extra Sticker e as cartas Adrenalyn XL que vêm nos pacotes! Não esperava esse bônus. Álbum muito bem feito, vale muito a pena!',
-      helpful: 43,
-    },
-    {
-      name: 'Bruno S.',
-      initials: 'BS',
-      avatarColor: '#2E7D32',
-      stars: 5,
-      time: 'Há 5 dias',
-      photos: [img('/images/rev-6a.webp'), img('/images/rev-6b.webp')],
-      review: 'Organizei tudo numa caixinha! Vieram figurinhas de várias seleções, produto 100% original Panini. Chegou tudo certinho e bem embalado.',
-      helpful: 37,
-    },
-    {
-      name: 'Tatiane R.',
-      initials: 'TR',
-      avatarColor: '#E65100',
-      stars: 5,
-      time: 'Há 1 semana',
-      photos: [img('/images/rev-7.webp')],
-      review: 'Abri todos os pacotes de uma vez! Muita figurinha boa saiu, produto original e lacrado. Já completei boa parte das seleções europeias.',
-      helpful: 22,
-    },
-    {
-      name: 'Diego F.',
-      initials: 'DF',
-      avatarColor: '#4527A0',
-      stars: 5,
-      time: 'Há 2 semanas',
-      photos: [img('/images/rev-8a.webp'), img('/images/rev-8b.webp')],
-      review: 'Saiu o Mbappé!! Figurinha incrível, qualidade de impressão perfeita. Os pacotes chegaram bem lacrados e a entrega foi rapidíssima.',
-      helpful: 58,
-    },
-    {
-      name: 'Priscila M.',
-      initials: 'PM',
-      avatarColor: '#AD1457',
-      stars: 5,
-      time: 'Há 3 semanas',
-      photos: [img('/images/rev-9.webp')],
-      review: 'Espalhei todas na mesa pra organizar — muita figurinha boa! Consegui completar quase todas as seleções. Produto excelente, valeu muito a pena.',
-      helpful: 19,
-    },
-    {
-      name: 'Henrique L.',
-      initials: 'HL',
-      avatarColor: '#00695C',
-      stars: 5,
       time: 'Há 4 dias',
-      photos: [img('/images/rev-10.webp')],
-      review: 'Os pacotes vieram com os códigos do álbum digital também! Dupla diversão. Entrega super rápida e produto 100% original. Muito recomendo!',
-      helpful: 34,
-    },
-    {
-      name: 'Thiago N.',
-      initials: 'TN',
-      avatarColor: '#37474F',
-      stars: 5,
-      time: 'Há 1 semana',
-      photos: [img('/images/rev-11a.webp'), img('/images/rev-11b.webp')],
-      review: 'Saiu o Cristiano Ronaldo em dois kits diferentes! Figurinha raridade, estou feliz demais. Produto original Panini, qualidade impecável.',
-      helpful: 61,
-    },
-    {
-      name: 'Vanessa O.',
-      initials: 'VO',
-      avatarColor: '#F9A825',
-      stars: 5,
-      time: 'Há 6 dias',
-      photos: [img('/images/rev-12a.webp'), img('/images/rev-12b.webp')],
-      review: 'Vieram o Vinicius Jr. E o Messi EXTRA roxinho! Duas raridades num único kit. Impossível não recomendar, melhor presente que já comprei.',
-      helpful: 74,
-    },
-    {
-      name: 'Roberto C.',
-      initials: 'RC',
-      avatarColor: '#1565C0',
-      stars: 5,
-      time: 'Há 2 semanas',
-      photos: [img('/images/rev-13a.webp'), img('/images/rev-13b.webp')],
-      review: 'O álbum é lindo por dentro! Páginas dos grupos com bandeiras e jogos. Chegou em perfeito estado, capa original. Já colei todas as figurinhas do kit!',
+      photos: [img('/images/review-4.webp')],
+      review: 'Pacote original Panini com 7 cromos cada! 👌 Design lindo, qualidade impecável. Chegou bem embalado e no prazo. Já pedi mais um kit!',
       helpful: 29,
     },
     {
-      name: 'Mariana K.',
-      initials: 'MK',
-      avatarColor: '#558B2F',
-      stars: 5,
-      time: 'Há 3 dias',
-      photos: [img('/images/rev-package.webp')],
-      review: 'Chegou em 2 dias! Embalagem amarela do Mercado Livre bem lacrada, produto sem nenhum dano. Vendedor confiável e entrega bem rápida. Já pedi mais um kit!',
-      helpful: 41,
-    },
-    {
-      name: 'Felipe G.',
-      initials: 'FG',
-      avatarColor: '#0277BD',
+      name: 'Rodrigo C.',
+      initials: 'RC',
+      avatarColor: '#2E7D32',
       stars: 5,
       time: 'Há 5 dias',
-      photos: [img('/images/rev-packs-bed.webp')],
-      review: 'Olha a quantidade de pacotes! Cheguei em casa e abri tudo de uma vez. Produto 100% original Panini, cada pacote com 7 cromos. Entrega perfeita!',
+      photos: [img('/images/review-5.webp')],
+      review: 'Olha o tamanho da pilha de figurinhas! 🌟 Saiu o Martinelli do Brasil. Figurinhas com qualidade incrível, produto 100% original Panini.',
+      helpful: 51,
+    },
+    {
+      name: 'Amanda T.',
+      initials: 'AT',
+      avatarColor: '#E65100',
+      stars: 5,
+      time: 'Há 1 semana',
+      photos: [img('/images/review-1.webp')],
+      review: 'Presente perfeito pro meu irmão e olha ele até trouxe o gato pra comemorar! 😄 Chegou rápido, produto original, super recomendo.',
+      helpful: 35,
+    },
+    {
+      name: 'Leandro M.',
+      initials: 'LM',
+      avatarColor: '#4527A0',
+      stars: 5,
+      time: 'Há 2 semanas',
+      photos: [img('/images/review-2.webp')],
+      review: 'Pacotes chegaram impecáveis! 🎯 Todos lacrados de fábrica, nenhum dano. 252 figurinhas no total, vale cada centavo.',
+      helpful: 44,
+    },
+    {
+      name: 'Patrícia H.',
+      initials: 'PH',
+      avatarColor: '#AD1457',
+      stars: 5,
+      time: 'Há 3 semanas',
+      photos: [img('/images/review-3.webp')],
+      review: 'Espalhei tudo na cama antes de abrir! 😍 36 pacotes, que vista incrível. Produto original Panini, entrega perfeita e bem embalado.',
       helpful: 27,
     },
     {
-      name: 'Lucas T.',
-      initials: 'LT',
-      avatarColor: '#4E342E',
-      stars: 5,
-      time: 'Há 1 semana',
-      photos: [img('/images/rev-stickers-table.webp'), img('/images/rev-morocco.webp')],
-      review: 'Saíram Haaland, Rodri, Alisson, Bruno Guimarães e até o escudo especial do Marrocos holográfico! Qualidade excelente, figurinhas perfeitas. Produto original.',
-      helpful: 53,
-    },
-    {
-      name: 'Camila B.',
-      initials: 'CB',
-      avatarColor: '#6A1B9A',
+      name: 'Gustavo B.',
+      initials: 'GB',
+      avatarColor: '#00695C',
       stars: 5,
       time: 'Há 4 dias',
-      photos: [img('/images/rev-grass.webp')],
-      review: 'Dei de presente pro meu namorado e ele amou! Fotografei os pacotes no jardim antes de dar. Produto lindo, original e embalagem impecável. Super recomendo!',
-      helpful: 16,
+      photos: [img('/images/review-4.webp')],
+      review: 'Cada pacote com 7 cromos de qualidade top! ⭐ Figurinhas com cores vivas e impressão perfeita. Chegou em 2 dias, frete grátis. Nota 10!',
+      helpful: 56,
     },
     {
-      name: 'Anderson V.',
-      initials: 'AV',
-      avatarColor: '#E65100',
+      name: 'Simone L.',
+      initials: 'SL',
+      avatarColor: '#37474F',
+      stars: 5,
+      time: 'Há 1 semana',
+      photos: [img('/images/review-5.webp')],
+      review: 'Que pilhão de figurinhas! 🤩 Saíram várias seleções diferentes. Produto original, chegou dentro do prazo e bem protegido. Amei!',
+      helpful: 39,
+    },
+    {
+      name: 'André N.',
+      initials: 'AN',
+      avatarColor: '#F9A825',
       stars: 5,
       time: 'Há 6 dias',
-      photos: [img('/images/rev-10packs.webp')],
-      review: 'Organizei os 10 pacotes na mesa antes de abrir, foi emocionante! Todos lacrados, originais, com várias versões diferentes. Compra excelente, recomendo demais!',
+      photos: [img('/images/review-1.webp')],
+      review: 'O gato aproveitou a sessão de fotos! 😂😻 Kit chegou certinho com álbum + 36 pacotes lacrados. Muito satisfeito com a compra!',
+      helpful: 71,
+    },
+    {
+      name: 'Viviane K.',
+      initials: 'VK',
+      avatarColor: '#0277BD',
+      stars: 5,
+      time: 'Há 5 dias',
+      photos: [img('/images/review-2.webp')],
+      review: 'Pacotes super bem conservados e originais! 🙌 Abri na hora que chegou. Cada um tem 7 cromos bonitos. Entrega relâmpago, recomendo!',
       helpful: 33,
+    },
+    {
+      name: 'Thiago S.',
+      initials: 'TS',
+      avatarColor: '#558B2F',
+      stars: 5,
+      time: 'Há 2 dias',
+      photos: [img('/images/review-3.webp')],
+      review: 'Montei uma coleção incrível! 💪 Todos os 36 pacotes lacrados e originais. Produto chegou na data certa, sem nenhum dano. 5 estrelas!',
+      helpful: 48,
+    },
+    {
+      name: 'Rebeca O.',
+      initials: 'RO',
+      avatarColor: '#4E342E',
+      stars: 5,
+      time: 'Há 3 dias',
+      photos: [img('/images/review-4.webp')],
+      review: 'Dei de presente e a pessoa amou! 🎁 Pacote Panini original com 7 cromos de qualidade. Entrega rápida e embalagem protegida. Top demais!',
+      helpful: 25,
+    },
+    {
+      name: 'Fábio G.',
+      initials: 'FG',
+      avatarColor: '#1B5E20',
+      stars: 5,
+      time: 'Há 1 semana',
+      photos: [img('/images/review-5.webp')],
+      review: 'Tantas figurinhas! 🔝 Saíram jogadores raros nesse kit. Produto original Panini, qualidade impecável. Já completei várias seleções. Valeu!',
+      helpful: 67,
+    },
+    {
+      name: 'Daniela M.',
+      initials: 'DM',
+      avatarColor: '#880E4F',
+      stars: 5,
+      time: 'Há 4 dias',
+      photos: [img('/images/review-1.webp')],
+      review: 'Chegou tudo certinho! 😊 O gatinho aqui foi o primeiro a inspecionar os pacotes rs. Álbum + 252 figurinhas originais. Super recomendo!',
+      helpful: 42,
+    },
+    {
+      name: 'Cauã R.',
+      initials: 'CR',
+      avatarColor: '#1A237E',
+      stars: 5,
+      time: 'Há 6 dias',
+      photos: [img('/images/review-2.webp')],
+      review: 'Foto dos pacotes antes de abrir — que beleza! ✨ Produto 100% original Panini. Frete grátis e entrega super pontual. Nota máxima!',
+      helpful: 30,
+    },
+    {
+      name: 'Letícia B.',
+      initials: 'LB',
+      avatarColor: '#4A148C',
+      stars: 5,
+      time: 'Há 2 semanas',
+      photos: [img('/images/review-3.webp')],
+      review: 'Olha quantos pacotes! 😍🏅 Organizei na cama antes de abrir cada um. Figurinhas originais Panini, qualidade perfeita. Compra certíssima!',
+      helpful: 58,
     },
   ];
 
@@ -352,13 +352,13 @@ export default function ProductPage() {
   }
 
   const slides: SlideItem[] = [
-    { type: "image", src: img("/images/slide-7.webp") },
     { type: "image", src: img("/images/slide-1.webp") },
-    { type: "image", src: img("/images/slide-2.webp") },
+    { type: "video", src: img("/images/slide-2.mp4") },
     { type: "image", src: img("/images/slide-3.webp") },
     { type: "image", src: img("/images/slide-4.webp") },
     { type: "image", src: img("/images/slide-5.webp") },
     { type: "image", src: img("/images/slide-6.webp") },
+    { type: "image", src: img("/images/slide-7.webp") },
   ];
 
   return (
@@ -396,7 +396,7 @@ export default function ProductPage() {
       </div>
       <div className="bg-white">
         <div className="text-sm text-muted-foreground px-4 py-3">
-          Novo | +7 mil vendidos
+          Novo | +3 mil vendidos
         </div>
 
         <div className="px-4 pb-2 flex items-center gap-0 w-fit">
@@ -404,12 +404,12 @@ export default function ProductPage() {
             MAIS VENDIDO
           </span>
           <span className="bg-white border border-orange-500 text-ml-blue text-[10px] font-semibold px-2 py-[3px] rounded-r-sm border-t-[#ffffff] border-r-[#ffffff] border-b-[#ffffff] border-l-[#ffffff]">
-            1º em Álbuns Copa do Mundo
+            1º em Kits de Figurinhas
           </span>
         </div>
 
         <h1 className="text-lg font-medium px-4 leading-snug">
-          Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
+          Kit 252 Figurinhas Copa Do Mundo 2026 - 36 Envelopes Panini
         </h1>
 
         <div className="px-4 py-2 flex items-center gap-1">
@@ -510,10 +510,10 @@ export default function ProductPage() {
 
         {/* Price & Buying options */}
         <div className="px-4 pb-6">
-          <div className="text-sm text-gray-400 line-through">R$ 119,00</div>
-          <div className="text-4xl font-normal text-foreground">R$ 39<span className="text-xl align-top">,90</span></div>
+          <div className="text-sm text-gray-400 line-through">R$ 399,90</div>
+          <div className="text-4xl font-normal text-foreground">R$ 159<span className="text-xl align-top">,90</span></div>
           <div className="mt-1 text-[15px]">
-            em <span className="text-ml-green font-medium">5x R$ 7,98 sem juros</span> no cartão
+            em <span className="text-ml-green font-medium">5x R$ 31,98 sem juros</span> no cartão
           </div>
 
           <div className="mt-4 flex items-start gap-2">
@@ -706,14 +706,13 @@ export default function ProductPage() {
           <h3 className="font-medium text-base mb-3">Opiniões com fotos</h3>
           <div className="flex gap-2 overflow-x-auto pb-2">
             {[
-              { src: img('/images/op1.webp'), stars: 5, name: 'Thaís M.', initials: 'TM', avatarColor: '#3483FA', review: 'Chegou hoje e já fotografei! Álbum lindo, capa firme e colorida, embalado com muito cuidado. Mal posso esperar pra começar a colar as figurinhas!' },
-              { src: img('/images/op2.webp'), stars: 5, name: 'Ana S.', initials: 'AS', avatarColor: '#00a650', review: 'Produto original Panini, chegou em perfeito estado. Capa muito bonita e bem feita. Entrega rápida e embalagem impecável. Recomendo demais!' },
-              { src: img('/images/op3.webp'), stars: 5, name: 'Pedro R.', initials: 'PR', avatarColor: '#e53935', review: 'Já colei o Cristiano Ronaldo, João Neves e Rúben Neves! Qualidade das figurinhas é excelente, impressão nítida. Completei Portugal inteira. Incrível!' },
-              { src: img('/images/op4.webp'), stars: 5, name: 'Carlos T.', initials: 'CT', avatarColor: '#7b1fa2', review: 'Não esperava pelas figurinhas Panini Extra Stickers! Saiu uma dourada no meu kit. O álbum tem até as cartas Adrenalyn XL. Produto completo, valeu muito!' },
-              { src: img('/images/op5.webp'), stars: 5, name: 'Maria J.', initials: 'MJ', avatarColor: '#f57c00', review: 'Organizei os pacotes em cima do álbum antes de abrir — que emoção! Colei toda a seleção do Brasil de uma vez. Produto 100% original, entrega perfeita!' },
-              { src: img('/images/op6.webp'), stars: 5, name: 'Renata B.', initials: 'RB', avatarColor: '#00838F', review: 'Página do Brasil completa! Cada jogador tem a foto linda. O álbum é muito bem feito, papel resistente e cores vivas. Valeu cada centavo, super recomendo!' },
-              { src: img('/images/op7.webp'), stars: 5, name: 'Fábio L.', initials: 'FL', avatarColor: '#558B2F', review: 'Kit chegou lacrado e original! Álbum Panini Copa 2026 com todos os pacotes. Entrega super rápida, produto sem nenhum defeito. Já pedi mais um kit!' },
-              { src: img('/images/op8.webp'), stars: 5, name: 'Camila R.', initials: 'CR', avatarColor: '#D81B60', review: 'Presentei meu marido e ele amou! Álbum capa mole com os pacotes, tudo original Panini e lacrado. Chegou rápido e bem protegido. Nota 10!' },
+              { src: img('/images/rev-extra-1.webp'), stars: 5, name: 'Natália F.', initials: 'NF', avatarColor: '#3483FA', review: 'Pacote original Panini com 7 cromos cada! 👌 Design lindo, qualidade impecável. Chegou bem embalado e no prazo. Já pedi mais um kit!' },
+              { src: img('/images/rev-extra-2.webp'), stars: 5, name: 'Rodrigo C.', initials: 'RC', avatarColor: '#2E7D32', review: 'Olha o tamanho da pilha de figurinhas! 🌟 Saiu o Martinelli do Brasil. Figurinhas com qualidade incrível, produto 100% original Panini.' },
+              { src: img('/images/rev-extra-3.webp'), stars: 5, name: 'Sérgio M.', initials: 'SM', avatarColor: '#e53935', review: 'Saíram 3 figurinhas holográficas de escudos! ✨ Scotland, Jordan e Paraguai brilhando. Raridades que eu não esperava num único pacote!' },
+              { src: img('/images/rev-extra-4.webp'), stars: 5, name: 'Bruna A.', initials: 'BA', avatarColor: '#7b1fa2', review: 'Coleção de escudos holográficos completa! 🏆 Suíça, Canadá, Holanda, Inglaterra e mais. Figurinhas lindas, produto 100% original Panini.' },
+              { src: img('/images/rev-extra-5.webp'), stars: 5, name: 'Lúcio H.', initials: 'LH', avatarColor: '#f57c00', review: 'Pacote original Panini FIFA World Cup 2026! 🔥 7 cromos por pacote, lacrado de fábrica. Produto excelente, entrega super rápida. Recomendo!' },
+              { src: img('/images/rev-extra-6.webp'), stars: 5, name: 'Marisa V.', initials: 'MV', avatarColor: '#00838F', review: 'Olha a quantidade de pacotes na mão! 😍 36 pacotes, 252 figurinhas no total. Produto 100% original, chegou tudo certinho e lacrado.' },
+              { src: img('/images/rev-extra-7.webp'), stars: 5, name: 'Felipe C.', initials: 'FC', avatarColor: '#558B2F', review: 'Organizei tudo por seleção! 🗂️ Veio com figurinha especial prata e pacotes extras. Produto original Panini Copa 2026. Entrega impecável!' },
             ].map((op, i) => (
               <button
                 key={i}
@@ -767,19 +766,19 @@ export default function ProductPage() {
         <div className="flex gap-3 overflow-x-auto pb-2">
           {[
             {
-              name: 'Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes',
-              price: 'R$ 49,00',
-              img: img('/images/sugg-1.webp'),
+              name: 'Kit 140 Figurinhas Copa Do Mundo 2026 - 20 Envelopes Panini',
+              price: 'R$ 89,90',
+              img: img('/images/slide-1.webp'),
             },
             {
-              name: 'Kit 140 Figurinhas Do Álbum Copa Do Mundo 2026 - 20 Envelopes',
+              name: 'Kit 70 Figurinhas Copa Do Mundo 2026 - 10 Envelopes Panini',
               price: 'R$ 49,90',
-              img: img('/images/sugg-2.webp'),
+              img: img('/images/slide-3.webp'),
             },
             {
-              name: 'Kit 252 Figurinhas Do Álbum Copa Do Mundo 2026 - 36 Pacotes',
-              price: 'R$ 159,90',
-              img: img('/images/sugg-3.webp'),
+              name: 'Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas',
+              price: 'R$ 49,00',
+              img: img('/images/review-1.webp'),
             },
           ].map((prod) => (
             <div key={prod.name} className="shrink-0 w-40 border border-gray-100 rounded-xl overflow-hidden shadow-sm">
@@ -998,10 +997,10 @@ export default function ProductPage() {
         <div className="flex flex-col shrink-0">
           <div className="flex items-start gap-0.5 leading-none">
             <span className="text-xs font-medium text-gray-700 mt-1">R$</span>
-            <span className="text-3xl font-semibold text-gray-900 leading-none">39</span>
+            <span className="text-3xl font-semibold text-gray-900 leading-none">159</span>
             <span className="text-xs font-semibold text-gray-900 leading-none mt-0.5">,90</span>
           </div>
-          <span className="text-[11px] text-ml-green font-medium leading-tight mt-0.5">5x R$ 7,98 sem juros</span>
+          <span className="text-[11px] text-ml-green font-medium leading-tight mt-0.5">5x R$ 31,98 sem juros</span>
         </div>
         <Button onClick={handleBuyNow} className="flex-1 bg-ml-blue hover:bg-ml-blue/90 text-white rounded-xl h-12 font-semibold text-base">
           Comprar agora
@@ -1053,11 +1052,11 @@ export default function ProductPage() {
                   />
                   <div className="flex-1 min-w-0">
                     <p className="text-xs text-gray-700 leading-snug mb-2">
-                      Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini - 35 Envelopes
+                      Kit 252 Figurinhas Copa Do Mundo 2026 - 36 Envelopes Panini
                     </p>
                     <div className="flex items-baseline gap-2 mb-3">
-                      <span className="text-base font-bold text-gray-900">R$ 49,00</span>
-                      <span className="text-[10px] text-gray-400 line-through">R$ 119,00</span>
+                      <span className="text-base font-bold text-gray-900">R$ 159,90</span>
+                      <span className="text-[10px] text-gray-400 line-through">R$ 399,90</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <button
@@ -1077,7 +1076,7 @@ export default function ProductPage() {
                 <div className="px-4 py-4 space-y-2 bg-white mt-2">
                   <div className="flex justify-between text-sm text-gray-500">
                     <span>Subtotal ({cartCount} {cartCount === 1 ? 'item' : 'itens'})</span>
-                    <span>R$ {(39.90 * cartCount).toFixed(2).replace('.', ',')}</span>
+                    <span>R$ {(159.90 * cartCount).toFixed(2).replace('.', ',')}</span>
                   </div>
                   <div className="flex justify-between text-sm text-green-600 font-medium">
                     <span>Frete</span>
@@ -1085,10 +1084,10 @@ export default function ProductPage() {
                   </div>
                   <div className="flex justify-between text-base font-bold text-gray-900 pt-1 border-t border-gray-100">
                     <span>Total</span>
-                    <span>R$ {(39.90 * cartCount).toFixed(2).replace('.', ',')}</span>
+                    <span>R$ {(159.90 * cartCount).toFixed(2).replace('.', ',')}</span>
                   </div>
                   <p className="text-xs text-green-600">
-                    Em 5x de R$ {(39.90 * cartCount / 5).toFixed(2).replace('.', ',')} sem juros
+                    Em 5x de R$ {(159.90 * cartCount / 5).toFixed(2).replace('.', ',')} sem juros
                   </p>
                 </div>
               </>

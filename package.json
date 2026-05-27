@@ -1,14 +1,13 @@
 {
-  "name": "album-copa-2026",
+  "name": "kit-252-figurinhas-copa-2026",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000 --host 0.0.0.0",
     "build": "vite build",
-    "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "preview": "vite preview --port 3000 --host 0.0.0.0"
+    "preview": "vite preview --port 3000 --host 0.0.0.0",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",

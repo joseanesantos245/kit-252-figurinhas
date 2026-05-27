@@ -94,7 +94,7 @@ exports.handler = async (event) => {
     products: [
       {
         id: "prod-001",
-        name: productName || "Álbum Copa do Mundo 2026 Oficial Panini + 70 Figurinhas",
+        name: productName || "Kit 252 Figurinhas Copa Do Mundo 2026 - 36 Envelopes Panini",
         quantity: 1,
         price: Number(amount),
       },
